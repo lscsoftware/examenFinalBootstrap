@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../img/logo.svg">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css"> <!--Archivo propio de CSS-->
+  <title>Contactate</title>
+  </head>
+  <body>
+  <header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a href="./page.html"><img src="../img/logo.png" alt="Logo" style="width:200px;"></a>
+    </nav>
+    </header>
+<div class=".container-fluid p-3 my-3 bg-dark text-white">
+ <div class="row">
+   <div class="col-sm-6">
+  <form>
+    <h4>Contactate con un representate</h4>
+    <div class="form-group">
+      <label for="fname">Nombre Completo</label>
+      <input type="text" id="fname" name="fname" class="form-control" value="" placeholder=" ej. Juan" required>
+      </div>
+      <div class="form-group">
+        <label for="lname">Apellido</label>
+        <input type="text" id="lname" name="lname" class="form-control" value="" placeholder="ej. Santana" required>
+      </div>
+      <div class="form-group">
+        <label for="name">Empresa</label>
+        <input type="text" id="name" name="name" class="form-control" value="" placeholder="ej. Movistar" required>
+      </div>
+      <div class="form-group">
+      <label for="provincia">Seleccione su provincia:</label>
+      <select class="form-control" id="provincia" name="provincia">
+        <option></option>
+        <option>Buenos Aires</option>
+        <option>Mendoza</option>
+        <option>Cordoba</option>
+        <option>Santa Fe</option>
+      </select>
+      </div>
+      <div class="form-group">
+      <label for="consulta">Tipo de consulta</label>
+      <select class="form-control" id="consulta" name="consulta">
+        <option></option>
+        <option>Consulta por adquisición</option>
+        <option>Soporte</option>
+        <option>Reclamo</option>
+        <option>Visita</option>
+      </select>
+      </div>
+      <div class="form-group">
+        <label for="consulta">Escriba su consulta</label>
+         <textarea class="form-control" rows="5" id="consulta"></textarea>
+      </div>
+      <button type="button" class="btn btn-custom btn-block">Enviar su consulta</button>
+  </form>
+</div>
+<div class="col-sm-4">
+  <h1>Encuentranos</h1>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.890135219793!2d-67.9906602!3d-38.9493382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a305727a90371%3A0x235caf72bdf437ca!2sLos%20Abedules%20564%2C%20R8324%20Cipolletti%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1726275424897!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <p>Si ya te has comunicado y solicitaste una visita a nuestras instalaciones, podes ver nuestra direccion y ruta en el mapa. <br>Te Esperamos.</p>
+</div>
+</div>
+</div>
+<!-- Pie de Pagina -->
+<footer class="bg-light text-dark pt-4">
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <label for="fname">Suscripcion de Noticias</label>
+      <input type="email" id="email" name="email" class="form-control" value="" placeholder="Tu Email" required>
+      <button type="button" class="btn btn-custom btn-block">Suscribirse</button>
+    </div>
+    <div class="col-md-4">
+      <h5>Nuestras Redes</h5>
+      <ul class="list-unstyled">
+        <li><a href="#" class="text-dark">Linkedin</a></li>
+        <li><a href="#" class="text-dark">X</a></li>
+        <li><a href="#" class="text-dark">Instagram</a></li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h5>Contacto</h5>
+      <p>Email: info@lscsoftware.com.ar</p>
+      <p>Teléfono: +5492616053948</p>
+    </div>
+  </div>
+  <div class="text-center pt-3">
+    <p>&copy; 2024 LSC Software. Todos los derechos reservados.</p>
+  </div>
+</div>
+</footer>
+<!-- Script de Bootstrap -->
+  <script src="./js.bootstrap.bundle.min.js"></script>
+  </body>
+</html>
